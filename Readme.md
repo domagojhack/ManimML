@@ -242,6 +242,7 @@ nn.move_to(ORIGIN)
 self.add(nn)
 # Make a forward pass animation
 forward_pass = nn.make_forward_pass_animation()
+self.play(forward_pass)
 ```
 
 We can now render with:
